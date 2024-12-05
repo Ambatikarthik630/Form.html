@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form table layout</title>
+</head>
+<body style="background-color: rgb(199, 197, 195);">
+ <h2 STYLE="color: rgb(216, 253, 6);">REGISTRATION FORM</h2>
+ <form action="#" method="post">
+    <table>
+        <tr>
+            <th colspan="2">Personal Information</th>
+        </tr>
+        <tr>
+            <td><label for="first-name">First Name:</label></td>
+            <td><input type="text" id="first-name" name="first-name" required></td>
+        </tr>
+        <tr>
+            <td><label for="last-name">Last Name:</label></td>
+            <td><input type="text" id="last-name" name="last-name" required></td> 
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="text" id="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="text" id="password" name="password" required></td>  
+        </tr>
+        <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>
+            <input type="radio" id="male" name="gender"value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender"value="female" required>
+            <label for="female">Female</label>         
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Country">Country:</label></td>
+            <td>
+                <select id="country" name="country" required>
+                    <option value="usa">USA</option>  
+                    <option value="uk">UK</option>
+                    <option value="india">INDIA</option>
+                    <option value="canada">CANADA</option> 
+                    
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="bio">Bio:</label></td>
+            <td><textarea id="bio" name="bio" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input style="color: rgb(200, 15, 15);" type="submit" value="Register">
+            </td>
+        </tr>
+        </table>
+        </form>
+
+ 
+</body>
+</html>
